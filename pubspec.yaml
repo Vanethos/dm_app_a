@@ -11,6 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # To only upgrade this dependency, we can use `flutter pub upgrade dependency_manager`
+  dependency_manager:
+    git:
+      url: https://github.com/Vanethos/dm_dependency_manager.git
+      ref: master
 
   cupertino_icons: ^0.1.3
 

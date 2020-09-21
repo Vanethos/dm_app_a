@@ -1,16 +1,7 @@
-# app_a
+# App A of the Dependency Manager Article
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[app_a](https://github.com/Vanethos/dm_app_a)
+[lib_a](https://github.com/Vanethos/dm_lib_a)
+[lib_b](https://github.com/Vanethos/dm_lib_b)
+[lib_c](https://github.com/Vanethos/dm_lib_c)
+[dependency_manager](https://github.com/Vanethos/dm_dependency_manager)
