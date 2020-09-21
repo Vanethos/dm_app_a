@@ -1,0 +1,12 @@
+[submodule "dm_lib_a"]
+	path = dm_lib_a
+	url = https://github.com/Vanethos/dm_lib_a.git
+	branch = submodules
+[submodule "dm_lib_b"]
+	path = dm_lib_b
+	url = https://github.com/Vanethos/dm_lib_b.git
+	branch = submodules
+[submodule "dm_lib_c"]
+	path = dm_lib_c
+	url = https://github.com/Vanethos/dm_lib_c.git
+	branch = master

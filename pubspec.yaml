@@ -8,10 +8,25 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+# Adding submodules: 
+# `git submodule add <git_url>`
+# 
+# The submodule will be added as local path on the root, which
+# means that we will have to add it as a path dependency
+
 dependencies:
   flutter:
     sdk: flutter
 
+  lib_a:
+    path: ./dm_lib_a
+
+  lib_b:
+    path: ./dm_lib_b
+
+  lib_c:
+    path: ./dm_lib_c
+    
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
