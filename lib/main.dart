@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:lib_a/lib_a.dart';
+import 'package:lib_b/lib_b.dart';
+import 'package:lib_c/lib_c.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,6 +31,24 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  LibraryA libA;
+  
+  LibraryB libB;
+
+  LibraryC libC;
+  
+  @override
+  void initState() {
+    super.initState();
+
+    libC = LibraryC();
+
+    libA = LibraryA(libC);
+
+    libB = LibraryB(libC);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,7 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontWeight: FontWeight.bold,
                 fontSize: 24.0,
               ),
-            )
+            ),
+            SizedBox(height: 20.0,),
+            Text(libA.name),
+            Text(libB.name),
+            Text(libC.name),
           ],
         ),
       ),

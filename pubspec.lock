@@ -67,6 +67,33 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  lib_a:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: git_reference_tag_a
+      resolved-ref: "93468acf6ccc436466bf0fba5743c3e83a978771"
+      url: "https://github.com/Vanethos/dm_lib_a.git"
+    source: git
+    version: "0.0.1"
+  lib_b:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: git_reference_tag_b
+      resolved-ref: "41da23afcda2780d878d4b1c0aa594392ce5bedb"
+      url: "https://github.com/Vanethos/dm_lib_b.git"
+    source: git
+    version: "0.0.1"
+  lib_c:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: git_reference_tag
+      resolved-ref: f142ca28b9540cc266fefe304f076e70c4c2ff9f
+      url: "https://github.com/Vanethos/dm_lib_c.git"
+    source: git
+    version: "0.0.1"
   matcher:
     dependency: transitive
     description:
@@ -151,3 +178,4 @@ packages:
     version: "2.1.0-nullsafety.2"
 sdks:
   dart: ">=2.10.0-0.0.dev <2.10.0"
+  flutter: ">=1.17.0 <2.0.0"
